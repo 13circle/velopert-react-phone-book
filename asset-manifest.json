@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/velopert-react-phone-book/static/css/main.bc5c55b2.chunk.css",
+    "main.js": "/velopert-react-phone-book/static/js/main.98f60c42.chunk.js",
+    "main.js.map": "/velopert-react-phone-book/static/js/main.98f60c42.chunk.js.map",
+    "runtime-main.js": "/velopert-react-phone-book/static/js/runtime-main.44d24164.js",
+    "runtime-main.js.map": "/velopert-react-phone-book/static/js/runtime-main.44d24164.js.map",
+    "static/js/2.2a50d84f.chunk.js": "/velopert-react-phone-book/static/js/2.2a50d84f.chunk.js",
+    "static/js/2.2a50d84f.chunk.js.map": "/velopert-react-phone-book/static/js/2.2a50d84f.chunk.js.map",
+    "index.html": "/velopert-react-phone-book/index.html",
+    "precache-manifest.40d8fcb2688f4380a2f7649fa249ecd0.js": "/velopert-react-phone-book/precache-manifest.40d8fcb2688f4380a2f7649fa249ecd0.js",
+    "service-worker.js": "/velopert-react-phone-book/service-worker.js",
+    "static/css/main.bc5c55b2.chunk.css.map": "/velopert-react-phone-book/static/css/main.bc5c55b2.chunk.css.map",
+    "static/js/2.2a50d84f.chunk.js.LICENSE.txt": "/velopert-react-phone-book/static/js/2.2a50d84f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.44d24164.js",
+    "static/js/2.2a50d84f.chunk.js",
+    "static/css/main.bc5c55b2.chunk.css",
+    "static/js/main.98f60c42.chunk.js"
+  ]
+}
