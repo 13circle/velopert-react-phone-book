@@ -40,6 +40,18 @@ class PhoneInfo extends Component {
     this.setState({ [name]: value });
   };
 
+  shouldComponentUpdate(nextProps, nextState) {
+    // If it is not EDIT mode & has same info, abort re-rendering.
+    if (
+      !this.state.editing &&
+      !nextState.editing &&
+      nextProps.info === this.props.info
+    ) {
+      return false;
+    }
+    return true;
+  }
+
   componentDidUpdate(prevProps, prevState) {
     /**
      *  [ "editing" mode logic ]

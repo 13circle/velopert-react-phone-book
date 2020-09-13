@@ -8,6 +8,10 @@ class PhoneInfoList extends Component {
     onUpdate: () => console.warn("onUpdate not defined"),
   };
 
+  shouldComponentUpdate(nextProps, nextState) {
+    return nextProps.data !== this.props.data;
+  }
+
   render() {
     const { data, onRemove, onUpdate } = this.props;
 
