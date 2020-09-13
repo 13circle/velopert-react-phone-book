@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import PhoneForm from "./components/PhoneForm";
 import PhoneInfoList from "./components/PhoneInfoList";
 
+import "./App.css";
+
 class App extends Component {
   id = 2;
   state = {
@@ -53,15 +55,16 @@ class App extends Component {
       (info) => info.name.indexOf(keyword) !== -1
     );
     return (
-      <div>
+      <div className="app-container">
+        <h2>React Phonebook Demo</h2>
         <PhoneForm onCreate={this.handleCreate} />
-        <p>
+        <div className="search-container">
           <input
             placeholder="Search by Name"
             onChange={this.handleChange}
             value={keyword}
           />
-        </p>
+        </div>
         <PhoneInfoList
           data={filteredList}
           onRemove={this.handleRemove}

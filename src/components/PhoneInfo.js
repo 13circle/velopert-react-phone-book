@@ -82,18 +82,12 @@ class PhoneInfo extends Component {
   }
 
   render() {
-    const style = {
-      border: "1px solid #000",
-      padding: "8px",
-      margin: "8px",
-    };
-
     const { editing } = this.state;
 
     // Edit mode
     if (editing) {
       return (
-        <div style={style}>
+        <div className="phoneinfo-container">
           <div>
             <input
               value={this.state.name}
@@ -119,7 +113,7 @@ class PhoneInfo extends Component {
     // List mode
     const { name, phone } = this.props.info;
     return (
-      <div style={style}>
+      <div className="phoneinfo-container">
         <div>
           <b>{name}</b>
         </div>
